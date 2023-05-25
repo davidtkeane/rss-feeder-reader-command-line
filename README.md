@@ -4,6 +4,8 @@
 
 This script combines the functionality of the three original scripts and adds the requested features. It includes a menu that allows you to choose which functionality to use. The descriptions of each option are included in the menu. The script also includes the ability to load RSS feed URLs from a CSV file, select a specific URL to display, or display a random URL. If the 'rss_feed' directory or 'rss_feed.csv' file do not exist, they will be created when the script is run.
 
+## I have two other rss scripts on my gist https://gist.github.com/davidtkeane 1 - will display the rss on the command line 2 - will speak the rss feed to you one by one.
+
 ## Prerequisites
 - Python 3.6 or above.
 - Required packages can be installed using the following command `pip install -r requirements.txt`
