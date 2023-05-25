@@ -1,0 +1,4 @@
+feedparser==6.0.2
+pyttsx3==2.90
+
+
