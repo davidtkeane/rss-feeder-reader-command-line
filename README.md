@@ -22,6 +22,16 @@ This script combines the functionality of the three original scripts and adds th
 
 Note: When prompted to enter an RSS feed URL, please make sure to provide a valid URL.
 
+## Menu Options
+The script provides the following options:
+1. Add an RSS feed
+2. Remove an RSS feed
+3. View titles with progress & ticker
+4. View titles with ticker only
+5. List all RSS feeds
+6. Open an RSS feed in browser
+9. Exit
+
 Thank you for using the RSS Feed Reader script created by Genie!# Instructions to Run RSS Feed Reader Script
 
 This script combines the functionality of the three original scripts and adds the requested features. It includes a menu that allows you to choose which functionality to use. The descriptions of each option are included in the menu. The script also includes the ability to load RSS feed URLs from a CSV file, select a specific URL to display, or display a random URL. If the 'rss_feed' directory or 'rss_feed.csv' file do not exist, they will be created when the script is run.
@@ -34,7 +44,7 @@ This script combines the functionality of the three original scripts and adds th
 1. Clone the repository using the command `git clone <repository-url>`
 2. Navigate to the directory containing the script using the command `cd <directory-name>`
 3. Install the required packages by running the command `pip install -r requirements.txt`
-4. Run the script using the command `python rss_feed_reader.py`
+4. Run the script using the command `python rss.py`
 5. Follow the prompts to add, remove, view and open RSS feeds. 
 
 Note: When prompted to enter an RSS feed URL, please make sure to provide a valid URL.
@@ -44,8 +54,6 @@ Thank you for using the RSS Feed Reader script created by Genie!
 Here are some suggestions for improving the RSS Feed Reader script:
 
 - **Implement error handling:** The current script assumes that every function operates successfully without any errors. However, it's always a good practice to implement error handling code that can gracefully handle unexpected errors.
-
-- **Add support for more RSS feeds:** Currently, the script only supports one feed at a time. You could modify the script to allow for multiple RSS feeds to be processed at once.
 
 - **Introduce command line arguments:** Consider implementing command-line arguments to allow the user to specify which RSS feed to process and how many articles to read at a time. This would make the script more flexible and customizable.
 
